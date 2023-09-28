@@ -1,4 +1,4 @@
-function Header() {
+export default function Header() {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -36,5 +36,3 @@ function Header() {
     </nav>
   );
 }
-
-export default Header;
